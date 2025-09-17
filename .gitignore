@@ -1,2 +1,29 @@
+# dependencies
 /node_modules/
+
+# custom folder to ignore
 /code-shit/
+
+# production builds
+/dist/
+/build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# environment variables
+.env
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE and editor directories/files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
